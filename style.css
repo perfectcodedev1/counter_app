@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-image: url(mainBcg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.counterBox {
+    border-color: #fff;
+    border-width: 2px;
+    border-style: solid;
+    width: 600px;
+    margin: auto;
+    margin-top: 7%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.9);
+}
+
+.row {
+    width: 100%;
+}
+
+.cunterNum {
+    font-size: 180px;
+}
+
+.btn {
+    background-color: #0d2c54;
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.9);
+}
+
+.btn:hover {
+    background-color: #0d2c54;
+    box-shadow: 0 0 10px #fff, 0 0 40px #fff, 0 0 80px #fff;
+}
